@@ -2,6 +2,7 @@ package com.example.user.rhymerandlyricsfetcher.service;
 
 import com.example.user.rhymerandlyricsfetcher.model.Constants;
 import com.example.user.rhymerandlyricsfetcher.model.RhymesModel;
+import com.example.user.rhymerandlyricsfetcher.model.Track;
 
 import java.util.List;
 
@@ -16,4 +17,8 @@ import retrofit2.http.Query;
 public interface RequestInterface {
     @GET(Constants.RHYMELIST_API)
     Observable<List<RhymesModel>> getRhymeResults(@Query("word") String word);
+
+    @GET(Constants.LYRICSLIST_API)
+    Observable<Track> getTracksWithLyrics(@Query("q_lyrics")String q_lyrics);
+
 }
