@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
-
+apply plugin: 'me.tatarka.retrolambda'
 repositories {
     maven { url 'https://maven.fabric.io/public' }
 }
@@ -26,7 +26,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         jackOptions {
-            enabled true
+            enabled false
         }
     }
     buildTypes {
