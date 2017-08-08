@@ -6,6 +6,6 @@ package com.example.sheelmorjaria.rhymemusiclyrics.MVP;
 
 public interface ILyricsListPresenter extends MVPPresenter<ILyricsListView>
 {
-    void performLyricsListDisplay(String word);
+    void getTracksWithLyrics(String words);
 
 }

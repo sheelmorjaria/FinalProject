@@ -7,8 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.sheelmorjaria.rhymemusiclyrics.MainActivity;
 import com.example.sheelmorjaria.rhymemusiclyrics.R;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 
 import java.util.List;
 
@@ -16,8 +17,7 @@ import java.util.List;
  * Created by user on 8/2/2017.
  */
 
-public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHolder>
-{
+public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHolder> {
     List<RhymesModel> rhymes;
     Context context;
     @Override
@@ -27,21 +27,27 @@ public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHold
 
     public RhymesAdaptor(List<RhymesModel> rhymes, Context applicationContext) {
         this.rhymes = rhymes;
-        this.context=applicationContext;
+        this.context = applicationContext;
     }
-    public int getItemCount(){return rhymes.size();}
+
+    public int getItemCount() {
+        return rhymes.size();
+    }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview, parent, false);
         return new MyViewHolder(v);
     }
+
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView rhyme;
+        View view;
 
 
         public MyViewHolder(View itemView) {
             super(itemView);
+            this.view = itemView;
             rhyme = (TextView) itemView.findViewById(R.id.rhyme);
 
         }
@@ -50,6 +56,21 @@ public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHold
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         holder.rhyme.setText(rhymes.get(position).getWord());
+        holder.view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.gotoList(rhymes.get(position).getWord());
+//                Bundle args = new Bundle();
+//                args.putString("word", rhymes.get(position).getWord());
+//
+//// fragmentManager = getFragmentManager();
+//                LyricsFragment lyricsFragment= new LyricsFragment();
+//                lyricsFragment.setArguments(args);
+//                fragmentManager.beginTransaction()
+//                        .replace(R.id.fragment_container, lyricsFragment)
+//                        .commit();
 
+            }
+        });
     }
 }

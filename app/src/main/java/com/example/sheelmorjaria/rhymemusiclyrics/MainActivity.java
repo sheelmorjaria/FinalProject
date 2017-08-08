@@ -27,12 +27,12 @@ public class MainActivity extends Activity {
                             .add(R.id.fragment_container , rhymeFragment)
                             .commit();
                     return true;
-                case R.id.lyrics:
-                    LyricsFragment lyricsFragment= new LyricsFragment();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.fragment_container , lyricsFragment)
-                            .commit();
-                    return true;
+//                case R.id.lyrics:
+//                    LyricsFragment lyricsFragment= new LyricsFragment();
+//                    fragmentManager.beginTransaction()
+//                            .replace(R.id.fragment_container , lyricsFragment)
+//                            .commit();
+//                    return true;
                 case R.id.lyricspad:
                     LyricsPadFragment lyricsPadFragment = new LyricsPadFragment();
                     fragmentManager.beginTransaction()
@@ -60,14 +60,13 @@ public class MainActivity extends Activity {
 //        }
     }
 
-//    public static void gotoList(ArrayList<String> rhymes) {
-//        RhymesView rhymeView = new RhymesView();
-//        Bundle bundle =new Bundle();
-//        bundle.putStringArrayList("rhymes", rhymes);
-//        rhymeView.setArguments(bundle);
-//        fragmentManager.beginTransaction()
-//                .replace(R.id.fragment_container ,rhymeView)
-//                .commit();
-//
-//    }
+    public static void gotoList(String lyricText) {
+        LyricsFragment lyricsFragment = new LyricsFragment();
+        Bundle bundle =new Bundle();
+        bundle.putString("lyricText", lyricText);
+        lyricsFragment.setArguments(bundle);
+        fragmentManager.beginTransaction()
+                .replace(R.id.fragment_container ,lyricsFragment)
+                .commit();
+    }
 }

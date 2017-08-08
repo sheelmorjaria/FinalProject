@@ -5,7 +5,7 @@ package com.example.sheelmorjaria.rhymemusiclyrics.Interactor;
  */
 
 import com.example.sheelmorjaria.rhymemusiclyrics.model.Constants;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 import com.example.sheelmorjaria.rhymemusiclyrics.service.RequestInterface;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 

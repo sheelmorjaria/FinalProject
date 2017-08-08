@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.example.sheelmorjaria.rhymemusiclyrics.Interactor.Interactor_Impl;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
 
 import java.util.List;
@@ -43,20 +43,25 @@ public class RhymesListPresenterImpl implements IRhymesListPresenter {
                     public void accept(@NonNull Boolean isConnectedToInternet) {
                         if (isConnectedToInternet) {
                             // do something with isConnectedToInternet value
-                            interactorImpl_.getRhymeResults(word)
-                                    .observeOn(AndroidSchedulers.mainThread())
-                                    .subscribeOn(Schedulers.newThread())
-                                    .subscribe(this::onSuccess, this::onError);
+
+                                interactorImpl_.getRhymeResults(word)
+                                        .observeOn(AndroidSchedulers.mainThread())
+                                        .subscribeOn(Schedulers.newThread())
+                                        .subscribe(this::onSuccess, this::onError);
+                            }
                         }
+
+                    private void onError(Throwable throwable) {
+                        Log.i("Log",throwable.getMessage());
                     }
 
                     private void onSuccess(List<RhymesModel> rhymesModels) {
                         iRhymesListView.onFetchDataSuccess(rhymesModels);
                     }
-                    private void onError(Throwable throwable) {
-                        Log.i("Log",throwable.getMessage());
-                    }
                 });
+
+
+
     }
 
     @Override

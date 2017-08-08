@@ -16,7 +16,7 @@ import com.example.sheelmorjaria.rhymemusiclyrics.MVP.IRhymesListPresenter;
 import com.example.sheelmorjaria.rhymemusiclyrics.MVP.IRhymesListView;
 import com.example.sheelmorjaria.rhymemusiclyrics.MVP.RhymesListPresenterImpl;
 import com.example.sheelmorjaria.rhymemusiclyrics.adaptor.RhymesAdaptor;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 
 import java.util.List;
 
@@ -28,7 +28,6 @@ public class RhymeFragment extends Fragment implements IRhymesListView {
 
     EditText word;
     String toRhyme;
-    List<String> wordList;
     RecyclerView myList;
     RhymesAdaptor adapter;
     Interactor_Impl interactor_;
@@ -70,11 +69,9 @@ public class RhymeFragment extends Fragment implements IRhymesListView {
 
 
 
-//                    rhymes = RiTa.rhymes(toRhyme);
-//                wordList = Arrays.asList(rhymes);
-                //similars = RiTa.similarBySound(toRhyme);
 
-//                BaseActivity.gotoList(wordList);
+
+            // MainActivity.gotoList(wordList);
 
 
             }
@@ -88,9 +85,7 @@ public class RhymeFragment extends Fragment implements IRhymesListView {
 
     @Override
     public void onFetchDataSuccess(List<RhymesModel> results) {
-//        for(RhymesModel rhyme :results){
-//            wordList.add(rhyme.getWord());
-//        }
+
 
         adapter = new RhymesAdaptor(results, getContext());
         myList.setAdapter(adapter);

@@ -1,8 +1,8 @@
 package com.example.sheelmorjaria.rhymemusiclyrics.service;
 
 import com.example.sheelmorjaria.rhymemusiclyrics.model.Constants;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
-import com.example.sheelmorjaria.rhymemusiclyrics.model.Track;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.lyrics.GetLyricResult;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 
 import java.util.List;
 
@@ -18,7 +18,6 @@ public interface RequestInterface {
     @GET(Constants.RHYMELIST_API)
     Observable<List<RhymesModel>> getRhymeResults(@Query("word") String word);
 
-    @GET(Constants.LYRICSLIST_API)
-    Observable<Track> getTracksWithLyrics(@Query("q_lyrics")String q_lyrics);
-
+    @GET(Constants.LYRICS_API)
+    Observable<GetLyricResult> getLyrics(@Query("lyricId")String lyricId, @Query("lyricChecksum")String lyricChecksum);
 }

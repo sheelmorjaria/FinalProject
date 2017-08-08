@@ -1,8 +1,6 @@
 package com.example.sheelmorjaria.rhymemusiclyrics.MVP;
 
-import com.example.sheelmorjaria.rhymemusiclyrics.model.LyricsList;
-
-import java.util.List;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.tracksearch.ArrayOfSearchLyricResult;
 
 /**
  * Created by user on 8/2/2017.
@@ -10,7 +8,7 @@ import java.util.List;
 
 public interface ILyricsListView extends MVPView{
     void onFetchDataInProgress();
-    void onFetchDataSuccess(List<LyricsList> results);
+    void onFetchDataSuccess(ArrayOfSearchLyricResult message);
     void onFetchDataError(Throwable throwable);
     void onFetchDataCompleted();
 }

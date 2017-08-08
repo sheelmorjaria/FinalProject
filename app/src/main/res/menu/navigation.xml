@@ -4,9 +4,9 @@
         android:id="@+id/dictionary"
         android:title="Dictionary"/>
 
-    <item
-        android:id="@+id/lyrics"
-        android:title="Lyrics"/>
+    <!--<item-->
+        <!--android:id="@+id/lyrics"-->
+        <!--android:title="Lyrics"/>-->
 
     <item
         android:id="@+id/lyricspad"

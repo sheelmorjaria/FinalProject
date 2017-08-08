@@ -1,6 +1,6 @@
 package com.example.sheelmorjaria.rhymemusiclyrics.Interactor;
 
-import com.example.sheelmorjaria.rhymemusiclyrics.model.RhymesModel;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.rhymes.RhymesModel;
 
 import java.util.List;
 
