@@ -12,8 +12,10 @@ import com.example.sheelmorjaria.rhymemusiclyrics.MVP.ILyricsListPresenter;
 import com.example.sheelmorjaria.rhymemusiclyrics.MVP.ILyricsListView;
 import com.example.sheelmorjaria.rhymemusiclyrics.MVP.LyricsListPresenterImpl;
 import com.example.sheelmorjaria.rhymemusiclyrics.model.tracksearch.ArrayOfSearchLyricResult;
+import com.example.sheelmorjaria.rhymemusiclyrics.model.tracksearch.SearchLyricResult;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static com.example.sheelmorjaria.rhymemusiclyrics.MainActivity.fragmentManager;
 
@@ -28,12 +30,10 @@ public class LyricsFragment extends Fragment implements ILyricsListView
     InteractorTwoImpl interactor_;
 
     String lyricText;
-    String lyricId;
-    String lyricChecksum;
+
     Bundle bundle;
 
-    ArrayList<String> trax = new ArrayList<>();
-    ArrayList<String> checksums = new ArrayList<>();
+
     public LyricsFragment() {
     }
 
@@ -57,25 +57,24 @@ public class LyricsFragment extends Fragment implements ILyricsListView
     @Override
     public void onFetchDataSuccess(ArrayOfSearchLyricResult message) {
         bundle = new Bundle();
-//        ArrayList<String> ids = new ArrayList<>();
-//        ArrayList<String> LlricChecksum = new ArrayList<>();
-//        List<SearchLyricResult> lyricsResults = message.getSearchLyricResult();
-//        for (SearchLyricResult searchLyricResult : lyricsResults) {
-//            ids.add(searchLyricResult.getLyricId());
-//            LlricChecksum.add(searchLyricResult.getLyricChecksum());
+        ArrayList<String> ids = new ArrayList<>();
+        ArrayList<String> lyricalChecksum = new ArrayList<>();
+        List<SearchLyricResult> lyricsResults = message.getSearchLyricResult();
+        for (SearchLyricResult searchLyricResult : lyricsResults) {
+            ids.add(searchLyricResult.getLyricId());
+            lyricalChecksum.add(searchLyricResult.getLyricChecksum());
 //            lyricId = searchLyricResult.getLyricId();
 //            lyricChecksum = searchLyricResult.getLyricChecksum();
 //            trax.add(lyricId);
 //            checksums.add(lyricChecksum);
-//
-//            bundle.putString("lyricId", lyricId);
-//            bundle.putString("lyricChecksum", lyricChecksum);
-//        }
+        }
+        bundle.putStringArrayList("lyricId", ids);
+        bundle.putStringArrayList("lyricalChecksum", lyricalChecksum);
 
-        bundle.putString("lyricId", message.getSearchLyricResult().get(0).getLyricId());
-//        bundle.putStringArrayList("lyricId",ids);
-//        bundle.putStringArrayList("lyricChecksum",LlricChecksum);
-        bundle.putString("lyricChecksum", message.getSearchLyricResult().get(0).getLyricChecksum());
+//        bundle.putString("lyricId", message.getSearchLyricResult().get(0).getLyricId());
+////        bundle.putStringArrayList("lyricId",ids);
+////        bundle.putStringArrayList("lyricChecksum",LlricChecksum);
+//        bundle.putString("lyricChecksum", message.getSearchLyricResult().get(0).getLyricChecksum());
             LyricsSubFragment lyricsSubFragment = new LyricsSubFragment();
             lyricsSubFragment.setArguments(bundle);
             fragmentManager.beginTransaction()

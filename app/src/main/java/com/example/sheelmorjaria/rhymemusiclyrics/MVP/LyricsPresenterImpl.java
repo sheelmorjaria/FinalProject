@@ -21,7 +21,7 @@ import io.reactivex.schedulers.Schedulers;
 public class LyricsPresenterImpl implements ILyricsPresenter {
     ILyricsView iLyricsView;
     InteractorThree interactorImpl_;
-    // list oflycris
+
     List<String> lyrics = new ArrayList<>();
     public LyricsPresenterImpl( InteractorThree interactorImpl_){
         this.interactorImpl_= interactorImpl_;
@@ -45,8 +45,6 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
                     @Override
                     public void accept(@NonNull Boolean isConnectedToInternet) {
                         if (isConnectedToInternet) {
-                            // do something with isConnectedToInternet value
-//                            iLyricsView.onFetchDataSuccess(track_ids);
                             interactorImpl_.getLyrics(lyricId,lyricChecksum)
                                     .observeOn(AndroidSchedulers.mainThread())
                                     .subscribeOn(Schedulers.newThread())
@@ -58,7 +56,7 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
 
 
 
-                            // caallback when complete to display
+
 
 
 

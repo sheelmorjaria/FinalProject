@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
                     RhymeFragment rhymeFragment = new RhymeFragment();
                     fragmentManager.beginTransaction()
                             .add(R.id.fragment_container , rhymeFragment)
+                            .disallowAddToBackStack()
                             .commit();
                     return true;
 //                case R.id.lyrics:
@@ -37,6 +38,7 @@ public class MainActivity extends Activity {
                     LyricsPadFragment lyricsPadFragment = new LyricsPadFragment();
                     fragmentManager.beginTransaction()
                             .replace(R.id.fragment_container , lyricsPadFragment)
+                            .disallowAddToBackStack()
                             .commit();
                     return true;
             }

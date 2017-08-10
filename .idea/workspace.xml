@@ -40,46 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RhymeFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/RhymeFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LyricsAdaptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lyricscardview.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricscardview.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LyricsSubFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LyricsSubFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsSubFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="268">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,49 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lyricssubview.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricssubview.xml">
+      <file leaf-file-name="ILyricsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LyricsPresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsPresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,9 +65,174 @@
       <file leaf-file-name="RhymesAdaptor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/RhymesAdaptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="629">
+              <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyricssubview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricssubview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyricscardview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricscardview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="8" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LyricsAdaptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recyclerview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recyclerview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16592">
+              <caret line="1007" column="0" selection-start-line="1007" selection-start-column="0" selection-end-line="1007" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#604#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#262840#262841#0" expanded="false" />
+                <element signature="e#262893#262894#0" expanded="false" />
+                <element signature="e#266980#266981#0" expanded="false" />
+                <element signature="e#267040#267041#0" expanded="false" />
+                <element signature="e#268991#268992#0" expanded="false" />
+                <element signature="e#269049#269050#0" expanded="false" />
+                <element signature="e#270981#270982#0" expanded="false" />
+                <element signature="e#271037#271038#0" expanded="false" />
+                <element signature="e#272207#272208#0" expanded="false" />
+                <element signature="e#272268#272269#0" expanded="false" />
+                <element signature="e#272663#272664#0" expanded="false" />
+                <element signature="e#272722#272723#0" expanded="false" />
+                <element signature="e#276919#276920#0" expanded="false" />
+                <element signature="e#276962#276963#0" expanded="false" />
+                <element signature="e#314272#314273#0" expanded="false" />
+                <element signature="e#314321#314322#0" expanded="false" />
+                <element signature="e#393323#393324#0" expanded="false" />
+                <element signature="e#393359#393360#0" expanded="false" />
+                <element signature="e#394270#394271#0" expanded="false" />
+                <element signature="e#394319#394320#0" expanded="false" />
+                <element signature="e#395082#395083#0" expanded="false" />
+                <element signature="e#395125#395126#0" expanded="false" />
+                <element signature="e#430559#430560#0" expanded="false" />
+                <element signature="e#430599#430600#0" expanded="false" />
+                <element signature="e#451831#451832#0" expanded="false" />
+                <element signature="e#451882#451883#0" expanded="false" />
+                <element signature="e#482586#482587#0" expanded="false" />
+                <element signature="e#482639#482640#0" expanded="false" />
+                <element signature="e#492850#492851#0" expanded="false" />
+                <element signature="e#492895#492896#0" expanded="false" />
+                <element signature="e#498275#498276#0" expanded="false" />
+                <element signature="e#498331#498332#0" expanded="false" />
+                <element signature="e#527535#527536#0" expanded="false" />
+                <element signature="e#527603#527604#0" expanded="false" />
+                <element signature="e#530397#530398#0" expanded="false" />
+                <element signature="e#530456#530457#0" expanded="false" />
+                <element signature="e#555709#555710#0" expanded="false" />
+                <element signature="e#555752#555753#0" expanded="false" />
+                <element signature="e#666040#666041#0" expanded="false" />
+                <element signature="e#666073#666074#0" expanded="false" />
+                <element signature="e#684749#684750#0" expanded="false" />
+                <element signature="e#684810#684811#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flowable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/Flowable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1802">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#604#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#291733#291734#0" expanded="false" />
+                <element signature="e#291786#291787#0" expanded="false" />
+                <element signature="e#296816#296817#0" expanded="false" />
+                <element signature="e#296874#296875#0" expanded="false" />
+                <element signature="e#299271#299272#0" expanded="false" />
+                <element signature="e#299327#299328#0" expanded="false" />
+                <element signature="e#300309#300310#0" expanded="false" />
+                <element signature="e#300361#300362#0" expanded="false" />
+                <element signature="e#301611#301612#0" expanded="false" />
+                <element signature="e#301667#301668#0" expanded="false" />
+                <element signature="e#303056#303057#0" expanded="false" />
+                <element signature="e#303119#303120#0" expanded="false" />
+                <element signature="e#303745#303746#0" expanded="false" />
+                <element signature="e#303802#303803#0" expanded="false" />
+                <element signature="e#309181#309182#0" expanded="false" />
+                <element signature="e#309224#309225#0" expanded="false" />
+                <element signature="e#351193#351194#0" expanded="false" />
+                <element signature="e#351244#351245#0" expanded="false" />
+                <element signature="e#446381#446382#0" expanded="false" />
+                <element signature="e#446416#446417#0" expanded="false" />
+                <element signature="e#447723#447724#0" expanded="false" />
+                <element signature="e#447771#447772#0" expanded="false" />
+                <element signature="e#448835#448836#0" expanded="false" />
+                <element signature="e#448877#448878#0" expanded="false" />
+                <element signature="e#495787#495788#0" expanded="false" />
+                <element signature="e#495827#495828#0" expanded="false" />
+                <element signature="e#518697#518698#0" expanded="false" />
+                <element signature="e#518771#518772#0" expanded="false" />
+                <element signature="e#521142#521143#0" expanded="false" />
+                <element signature="e#521193#521194#0" expanded="false" />
+                <element signature="e#577480#577481#0" expanded="false" />
+                <element signature="e#577530#577531#0" expanded="false" />
+                <element signature="e#582058#582059#0" expanded="false" />
+                <element signature="e#582102#582103#0" expanded="false" />
+                <element signature="e#598886#598887#0" expanded="false" />
+                <element signature="e#598931#598932#0" expanded="false" />
+                <element signature="e#605523#605524#0" expanded="false" />
+                <element signature="e#605577#605578#0" expanded="false" />
+                <element signature="e#640161#640162#0" expanded="false" />
+                <element signature="e#640229#640230#0" expanded="false" />
+                <element signature="e#643599#643600#0" expanded="false" />
+                <element signature="e#643658#643659#0" expanded="false" />
+                <element signature="e#673071#673072#0" expanded="false" />
+                <element signature="e#673114#673115#0" expanded="false" />
+                <element signature="e#679957#679958#0" expanded="false" />
+                <element signature="e#680008#680009#0" expanded="false" />
+                <element signature="e#734404#734405#0" expanded="false" />
+                <element signature="e#734455#734456#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2251,7 +2343,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/app/Fragment.class" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/RhymesAdaptor.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
@@ -2278,7 +2369,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsListPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/RhymesListPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/Constants.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorTwoImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorTwo.java" />
@@ -2288,28 +2378,30 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/lyricsview.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/RhymeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/tracksearch/ArrayOfSearchLyricResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/lyrics/GetLyricResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/tracksearch/SearchLyricResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsListPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThree.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThreeImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/lyricscardview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recyclerview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/lyricssubview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsSubFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-33" />
+    <option name="y" value="20" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2336,12 +2428,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2395,6 +2481,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rhymemusiclyrics" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2412,6 +2502,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="rhymemusiclyrics" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RhymeMusicLyrics" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rhymemusiclyrics" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RhymeMusicLyrics" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rhymemusiclyrics" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2448,6 +2578,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2803,38 +2939,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-33" y="20" width="1932" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30170575" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13113007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36780384" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34221748" sideWeight="0.49786323" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306624" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36780384" sideWeight="0.50319827" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12100213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32622603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12126068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52132195" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48400852" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32622603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -2853,21 +2989,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java</url>
-          <line>43</line>
-          <properties field="lyrics" class="com.example.sheelmorjaria.rhymemusiclyrics.adaptor.LyricsAdaptor.MyViewHolder" />
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="135" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
@@ -2878,201 +3000,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/internal/platform/Platform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="e#2518#2519#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/net/http/X509TrustManagerExtensions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/internal/platform/AndroidPlatform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/internal/tls/CertificateChainCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/internal/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding>
-            <element signature="e#3890#3891#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/CertificatePinner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/OkHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="906" column="0" selection-start-line="906" selection-start-column="0" selection-end-line="906" selection-end-column="0" />
-          <folding>
-            <element signature="e#34915#34916#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pwittchen/reactivenetwork-rx2/0.9.1/e2a32737c6f703a0f13ebc75238e427e9795e4e/reactivenetwork-rx2-0.9.1-sources.jar!/com/github/pwittchen/reactivenetwork/library/rx2/ReactiveNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Retrofit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="450" column="0" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
-          <folding>
-            <element signature="e#16614#16615#0" expanded="false" />
-            <element signature="e#16648#16649#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricspad.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricsview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/IRhymesListPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/app/FragmentHostCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/app/Fragment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="507" column="0" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsPadFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/Interactor_Impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/RhymesListPresenterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/MVPView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsListPresenterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -3081,69 +3008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/lyrics/GetLyricResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/tracksearch/SearchLyricResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsListPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3151,17 +3019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThreeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3169,15 +3026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="43" column="67" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3185,165 +3033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recyclerview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/observers/LambdaObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/operators/observable/ObservableSubscribeOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#2008#2009#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/operators/observable/ObservableObserveOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxandroid/2.0.1/67244b35fe87c5899f87151f8b63981b7c9b37db/rxandroid-2.0.1-sources.jar!/io/reactivex/android/schedulers/HandlerScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4146#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1586#1587#0" expanded="false" />
-            <element signature="e#1774#1775#0" expanded="false" />
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#3032#3033#0" expanded="false" />
-            <element signature="e#3071#3072#0" expanded="false" />
-            <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4136#4137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#3716#3717#0" expanded="true" />
-            <element signature="e#3767#3768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsPresenterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Looper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsSubFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricscardview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/RhymesAdaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/RhymeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricssubview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3359,6 +3048,451 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/IRhymesListPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsPadFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/RhymeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsListPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.android/build-cache/4edd832ade71a6bb03ab6588f5fd70b4699aa816/output/jars/classes.jar!/com/crashlytics/android/core/CrashlyticsUncaughtExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/RhymesListPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/BaseBundle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Bundle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="239" column="61" selection-start-line="239" selection-start-column="61" selection-end-line="239" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Retrofit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/tracksearch/SearchLyricResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/service/RequestInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/Interactor/InteractorThreeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/LyricsPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="50" column="73" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="507" column="0" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/util/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/observers/LambdaObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/functions/ObjectHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/operators/observable/ObservableFromIterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/plugins/RxJavaPlugins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="1035" column="0" selection-start-line="1035" selection-start-column="0" selection-end-line="1035" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/functions/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/Flowable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#604#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#291733#291734#0" expanded="false" />
+            <element signature="e#291786#291787#0" expanded="false" />
+            <element signature="e#296816#296817#0" expanded="false" />
+            <element signature="e#296874#296875#0" expanded="false" />
+            <element signature="e#299271#299272#0" expanded="false" />
+            <element signature="e#299327#299328#0" expanded="false" />
+            <element signature="e#300309#300310#0" expanded="false" />
+            <element signature="e#300361#300362#0" expanded="false" />
+            <element signature="e#301611#301612#0" expanded="false" />
+            <element signature="e#301667#301668#0" expanded="false" />
+            <element signature="e#303056#303057#0" expanded="false" />
+            <element signature="e#303119#303120#0" expanded="false" />
+            <element signature="e#303745#303746#0" expanded="false" />
+            <element signature="e#303802#303803#0" expanded="false" />
+            <element signature="e#309181#309182#0" expanded="false" />
+            <element signature="e#309224#309225#0" expanded="false" />
+            <element signature="e#351193#351194#0" expanded="false" />
+            <element signature="e#351244#351245#0" expanded="false" />
+            <element signature="e#446381#446382#0" expanded="false" />
+            <element signature="e#446416#446417#0" expanded="false" />
+            <element signature="e#447723#447724#0" expanded="false" />
+            <element signature="e#447771#447772#0" expanded="false" />
+            <element signature="e#448835#448836#0" expanded="false" />
+            <element signature="e#448877#448878#0" expanded="false" />
+            <element signature="e#495787#495788#0" expanded="false" />
+            <element signature="e#495827#495828#0" expanded="false" />
+            <element signature="e#518697#518698#0" expanded="false" />
+            <element signature="e#518771#518772#0" expanded="false" />
+            <element signature="e#521142#521143#0" expanded="false" />
+            <element signature="e#521193#521194#0" expanded="false" />
+            <element signature="e#577480#577481#0" expanded="false" />
+            <element signature="e#577530#577531#0" expanded="false" />
+            <element signature="e#582058#582059#0" expanded="false" />
+            <element signature="e#582102#582103#0" expanded="false" />
+            <element signature="e#598886#598887#0" expanded="false" />
+            <element signature="e#598931#598932#0" expanded="false" />
+            <element signature="e#605523#605524#0" expanded="false" />
+            <element signature="e#605577#605578#0" expanded="false" />
+            <element signature="e#640161#640162#0" expanded="false" />
+            <element signature="e#640229#640230#0" expanded="false" />
+            <element signature="e#643599#643600#0" expanded="false" />
+            <element signature="e#643658#643659#0" expanded="false" />
+            <element signature="e#673071#673072#0" expanded="false" />
+            <element signature="e#673114#673115#0" expanded="false" />
+            <element signature="e#679957#679958#0" expanded="false" />
+            <element signature="e#680008#680009#0" expanded="false" />
+            <element signature="e#734404#734405#0" expanded="false" />
+            <element signature="e#734455#734456#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16592">
+          <caret line="1007" column="0" selection-start-line="1007" selection-start-column="0" selection-end-line="1007" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#604#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#262840#262841#0" expanded="false" />
+            <element signature="e#262893#262894#0" expanded="false" />
+            <element signature="e#266980#266981#0" expanded="false" />
+            <element signature="e#267040#267041#0" expanded="false" />
+            <element signature="e#268991#268992#0" expanded="false" />
+            <element signature="e#269049#269050#0" expanded="false" />
+            <element signature="e#270981#270982#0" expanded="false" />
+            <element signature="e#271037#271038#0" expanded="false" />
+            <element signature="e#272207#272208#0" expanded="false" />
+            <element signature="e#272268#272269#0" expanded="false" />
+            <element signature="e#272663#272664#0" expanded="false" />
+            <element signature="e#272722#272723#0" expanded="false" />
+            <element signature="e#276919#276920#0" expanded="false" />
+            <element signature="e#276962#276963#0" expanded="false" />
+            <element signature="e#314272#314273#0" expanded="false" />
+            <element signature="e#314321#314322#0" expanded="false" />
+            <element signature="e#393323#393324#0" expanded="false" />
+            <element signature="e#393359#393360#0" expanded="false" />
+            <element signature="e#394270#394271#0" expanded="false" />
+            <element signature="e#394319#394320#0" expanded="false" />
+            <element signature="e#395082#395083#0" expanded="false" />
+            <element signature="e#395125#395126#0" expanded="false" />
+            <element signature="e#430559#430560#0" expanded="false" />
+            <element signature="e#430599#430600#0" expanded="false" />
+            <element signature="e#451831#451832#0" expanded="false" />
+            <element signature="e#451882#451883#0" expanded="false" />
+            <element signature="e#482586#482587#0" expanded="false" />
+            <element signature="e#482639#482640#0" expanded="false" />
+            <element signature="e#492850#492851#0" expanded="false" />
+            <element signature="e#492895#492896#0" expanded="false" />
+            <element signature="e#498275#498276#0" expanded="false" />
+            <element signature="e#498331#498332#0" expanded="false" />
+            <element signature="e#527535#527536#0" expanded="false" />
+            <element signature="e#527603#527604#0" expanded="false" />
+            <element signature="e#530397#530398#0" expanded="false" />
+            <element signature="e#530456#530457#0" expanded="false" />
+            <element signature="e#555709#555710#0" expanded="false" />
+            <element signature="e#555752#555753#0" expanded="false" />
+            <element signature="e#666040#666041#0" expanded="false" />
+            <element signature="e#666073#666074#0" expanded="false" />
+            <element signature="e#684749#684750#0" expanded="false" />
+            <element signature="e#684810#684811#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/model/lyrics/GetLyricResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/queue/SpscLinkedArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-26/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxandroid/2.0.1/67244b35fe87c5899f87151f8b63981b7c9b37db/rxandroid-2.0.1-sources.jar!/io/reactivex/android/schedulers/HandlerScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/operators/observable/ObservableObserveOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/internal/operators/observable/ObservableSubscribeOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricscardview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/26.0.0-alpha1/recyclerview-v7-26.0.0-alpha1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="6399" column="0" selection-start-line="6399" selection-start-column="0" selection-end-line="6399" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/MVP/ILyricsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/RhymesAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/adaptor/LyricsAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recyclerview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/lyricssubview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sheelmorjaria/rhymemusiclyrics/LyricsSubFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
