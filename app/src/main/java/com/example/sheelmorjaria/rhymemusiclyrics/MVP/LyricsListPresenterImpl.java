@@ -18,7 +18,7 @@ import io.reactivex.schedulers.Schedulers;
  * Created by user on 8/2/2017.
  */
 
-public class LyricsListPresenterImpl implements ILyricsListPresenter{
+public class LyricsListPresenterImpl implements ILyricsListPresenter {
     InteractorTwo interactorImpl_;
     ILyricsListView iLyricsListView;
     List<SearchLyricResult> searchLyric;
@@ -28,7 +28,7 @@ public class LyricsListPresenterImpl implements ILyricsListPresenter{
         this.iLyricsListView = mvpView;
     }
 
-    public LyricsListPresenterImpl( InteractorTwo interactorImpl) {
+    public LyricsListPresenterImpl(InteractorTwo interactorImpl) {
         this.interactorImpl_ = interactorImpl;
     }
 
@@ -51,7 +51,6 @@ public class LyricsListPresenterImpl implements ILyricsListPresenter{
                                     .subscribe(this::onSuccess, this::onError);
                         }
                     }
-
 
 
                     private void onError(Throwable throwable) {

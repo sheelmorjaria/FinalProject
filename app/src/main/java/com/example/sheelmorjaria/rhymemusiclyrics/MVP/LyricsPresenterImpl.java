@@ -23,10 +23,12 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
     InteractorThree interactorImpl_;
 
     List<String> lyrics = new ArrayList<>();
-    public LyricsPresenterImpl( InteractorThree interactorImpl_){
-        this.interactorImpl_= interactorImpl_;
+
+    public LyricsPresenterImpl(InteractorThree interactorImpl_) {
+        this.interactorImpl_ = interactorImpl_;
 
     }
+
     @Override
     public void attachView(ILyricsView mvpView) {
         this.iLyricsView = mvpView;
@@ -37,7 +39,7 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
 
     }
 
-    public void performLyricsDisplay(String lyricId,String lyricChecksum) {
+    public void performLyricsDisplay(String lyricId, String lyricChecksum) {
         ReactiveNetwork.observeInternetConnectivity()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -45,7 +47,7 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
                     @Override
                     public void accept(@NonNull Boolean isConnectedToInternet) {
                         if (isConnectedToInternet) {
-                            interactorImpl_.getLyrics(lyricId,lyricChecksum)
+                            interactorImpl_.getLyrics(lyricId, lyricChecksum)
                                     .observeOn(AndroidSchedulers.mainThread())
                                     .subscribeOn(Schedulers.newThread())
                                     .subscribe(this::onSuccess, this::onError);
@@ -54,14 +56,8 @@ public class LyricsPresenterImpl implements ILyricsPresenter {
                     }
 
 
-
-
-
-
-
-
                     private void onError(Throwable throwable) {
-                        Log.i("Log",throwable.getMessage());
+                        Log.i("Log", throwable.getMessage());
 
                     }
 

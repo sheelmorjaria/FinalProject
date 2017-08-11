@@ -42,7 +42,6 @@ public class RhymesListPresenterImpl implements IRhymesListPresenter {
                     @Override
                     public void accept(@NonNull Boolean isConnectedToInternet) {
                         if (isConnectedToInternet) {
-                            // do something with isConnectedToInternet value
 
                                 interactorImpl_.getRhymeResults(word)
                                         .observeOn(AndroidSchedulers.mainThread())

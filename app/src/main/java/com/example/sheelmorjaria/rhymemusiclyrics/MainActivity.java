@@ -34,13 +34,13 @@ public class MainActivity extends Activity {
 //                            .replace(R.id.fragment_container , lyricsFragment)
 //                            .commit();
 //                    return true;
-                case R.id.lyricspad:
-                    LyricsPadFragment lyricsPadFragment = new LyricsPadFragment();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.fragment_container , lyricsPadFragment)
-                            .disallowAddToBackStack()
-                            .commit();
-                    return true;
+//                case R.id.lyricspad:
+//                    LyricsPadFragment lyricsPadFragment = new LyricsPadFragment();
+//                    fragmentManager.beginTransaction()
+//                            .replace(R.id.fragment_container , lyricsPadFragment)
+//                            .disallowAddToBackStack()
+//                            .commit();
+//                    return true;
             }
             return false;
         }
@@ -54,12 +54,6 @@ public class MainActivity extends Activity {
         fragmentManager = getFragmentManager();
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-//        if (savedInstanceState == null) {
-//
-//            fragmentManager.beginTransaction()
-//                    .add(R.id.fragment_container, rhymeFragment)
-//                    .commit();
-//        }
     }
 
     public static void gotoList(String lyricText) {

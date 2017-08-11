@@ -25,7 +25,6 @@ public class LyricsAdaptor extends RecyclerView.Adapter<LyricsAdaptor.MyViewHold
 
     public LyricsAdaptor(String lyric, Context applicationContext) {
         this.lyric = lyric;
-//        this.lyric= " world";
         this.context = applicationContext;
     }
 

@@ -33,17 +33,15 @@ public class RhymeFragment extends Fragment implements IRhymesListView {
     Interactor_Impl interactor_;
 
     IRhymesListPresenter iRhymesListPresenter;
+
     public RhymeFragment() {
     }
-
-
-
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_main,container, false);
+        View v = inflater.inflate(R.layout.activity_main, container, false);
 
         return v;
     }
@@ -66,13 +64,6 @@ public class RhymeFragment extends Fragment implements IRhymesListView {
                 toRhyme = word.getText().toString();
 
                 iRhymesListPresenter.performRhymesListDisplay(toRhyme);
-
-
-
-
-
-            // MainActivity.gotoList(wordList);
-
 
             }
         });

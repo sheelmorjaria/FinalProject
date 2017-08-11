@@ -35,46 +35,12 @@ public class LyricsSubFragment extends Fragment {
     InteractorThreeImpl interactorThree;
     TextView lyricsView;
 
-//    @Override
-//    public void onFetchDataInProgress() {
-//
-//    }
-//
-//    @Override
-//    public void onFetchDataSuccess(GetLyricResult getLyricResult) {
-////      String lyricResult =  getLyricResult.getLyric();
-//        LinearLayoutManager llm = new LinearLayoutManager(getContext());
-//
-//        adapter = new LyricsAdaptor(getLyricResult.getLyric(), getContext());
-//        myList.setLayoutManager(llm);
-//        myList.setAdapter(adapter);
-//    }
-//
-//    @Override
-//    public void onFetchDataError(Throwable throwable) {
-//    }
-//
-//    @Override
-//    public void onFetchDataCompleted() {
-//
-//    }
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle bundle = getArguments();
         lyricId = bundle.getStringArrayList("lyricId");
         lyricalChecksum = bundle.getStringArrayList("lyricalChecksum");
-
-
-//        adapter = new LyricsAdaptor(lyricId, getContext());
-//        myList.setAdapter(adapter);
-
-//        iLyricsPresenter = new LyricsPresenterImpl(interactorThree);
-//        iLyricsPresenter.attachView(this);
-////        for(String trackid: trax) {
-////            for (String checksum : checksums) {
-//        iLyricsPresenter.performLyricsDisplay(lyricId, lyricChecksum);
 
     }
 
@@ -92,13 +58,11 @@ public class LyricsSubFragment extends Fragment {
         interactorThree = new InteractorThreeImpl();
         lyricsView = (TextView) view.findViewById(R.id.lyricsView);
         iLyricsPresenter = new LyricsPresenterImpl(interactorThree);
-//        iLyricsPresenter.attachView(this);
 
         List<Observable<GetLyricResult>> observables =
                 new ArrayList<Observable<GetLyricResult>>();
 
-        if (lyricId.size() == lyricalChecksum.size())
-        {
+        if (lyricId.size() == lyricalChecksum.size()) {
             for (int i = 0; i < lyricId.size(); i++) {
 
                 observables.add(interactorThree.getLyrics(lyricId.get(i), lyricalChecksum.get(i)));
@@ -115,7 +79,8 @@ public class LyricsSubFragment extends Fragment {
 
 
     }
-    private Observer<GetLyricResult> getObserver(){
+
+    private Observer<GetLyricResult> getObserver() {
         return new Observer<GetLyricResult>() {
             @Override
             public void onSubscribe(@NonNull Disposable d) {
@@ -124,7 +89,6 @@ public class LyricsSubFragment extends Fragment {
 
             @Override
             public void onNext(@NonNull GetLyricResult getLyricResult) {
-//               String lyric=  getLyricResult.getLyric();
                 lyricsView.append(getLyricResult.getLyric());
             }
 
@@ -139,15 +103,6 @@ public class LyricsSubFragment extends Fragment {
             }
         };
     }
-
-//    private void onError(Throwable throwable) {
-//        Log.i("throwable", throwable.getMessage());
-//    }
-//
-//    private void onSuccess(GetLyricResult getLyricResult) {
-//        getLyricResult.getLyric();
-//
-//    }
 
 }
 

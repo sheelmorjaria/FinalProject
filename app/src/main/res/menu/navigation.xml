@@ -8,7 +8,7 @@
         <!--android:id="@+id/lyrics"-->
         <!--android:title="Lyrics"/>-->
 
-    <item
-        android:id="@+id/lyricspad"
-        android:title="Lyrics pad"/>
+    <!--<item-->
+        <!--android:id="@+id/lyricspad"-->
+        <!--android:title="Lyrics pad"/>-->
 </menu>

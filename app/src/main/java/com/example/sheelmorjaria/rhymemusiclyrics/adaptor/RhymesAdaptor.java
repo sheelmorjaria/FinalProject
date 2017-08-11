@@ -20,6 +20,7 @@ import java.util.List;
 public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHolder> {
     List<RhymesModel> rhymes;
     Context context;
+
     @Override
     public void onBindViewHolder(RhymesAdaptor.MyViewHolder holder, int position, List<Object> payloads) {
         super.onBindViewHolder(holder, position, payloads);
@@ -60,15 +61,6 @@ public class RhymesAdaptor extends RecyclerView.Adapter<RhymesAdaptor.MyViewHold
             @Override
             public void onClick(View v) {
                 MainActivity.gotoList(rhymes.get(position).getWord());
-//                Bundle args = new Bundle();
-//                args.putString("word", rhymes.get(position).getWord());
-//
-//// fragmentManager = getFragmentManager();
-//                LyricsFragment lyricsFragment= new LyricsFragment();
-//                lyricsFragment.setArguments(args);
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.fragment_container, lyricsFragment)
-//                        .commit();
 
             }
         });
